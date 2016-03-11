@@ -215,12 +215,60 @@ class Summary_e {
         }
       }
     } else if (num==3) {//3このとき
-      if (Key.onp[1][2]==1 && Key.onp[4][0]==1 && Key.onp[6][0]==1) {//XTUのとき
+      if (Key.onp[1][2]==1 && Key.onp[1][0]==1 && Key.onp[0][1]==1) {
+        textSize(50);
+        text("ゎ", width/2, 50);
+        sb_u(160-4, 1, 2);
+        sb_d(200, 1, 0);
+        sb_u(240, 0, 1);
+      } else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[0][1]==1) {
+        textSize(50);
+        text("ゃ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 5, 0);
+        sb_u(240, 0, 1);
+      } else if (Key.onp[1][2]==1 && Key.onp[7][1]==1 && Key.onp[0][1]==1) {
+        textSize(50);
+        text("ヵ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 7, 1);
+        sb_u(240, 0, 1);
+      } else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[7][0]==1) {
+        textSize(50);
+        text("ぃ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 5, 0);
+        sb_d(240+8, 7, 0);
+      } else if (Key.onp[1][2]==1 && Key.onp[4][0]==1 && Key.onp[6][0]==1) {//XTUのとき
         textSize(50);
         text("っ", width/2, 50);
         sb_u(160-8, 1, 2);      
         sb_d(200, 4, 0);      
         sb_d(240+4, 6, 0);
+      } else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[6][0]==1) {
+        textSize(50);
+        text("ゅ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 5, 0);
+        sb_u(240+4, 6, 0);
+      } else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[2][0]==1) {
+        textSize(50);
+        text("ぇ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 5, 0);
+        sb_u(240, 2, 0);
+      } else if (Key.onp[1][2]==1 && Key.onp[7][1]==1 && Key.onp[2][0]==1) {
+        textSize(50);
+        text("ヶ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 7, 1);
+        sb_u(240, 2, 0);
+      } else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[8][0]==1) {
+        textSize(50);
+        text("ょ", width/2, 50);
+        sb_u(160-8, 1, 2);
+        sb_d(200, 5, 0);
+        sb_d(240+4, 8, 0);
       } else if (Key.onp[1][1]==1 && Key.onp[5][1]==1 && Key.onp[7][0]==1) {//SHIのとき
         textSize(50);
         text("し", width/2, 50);
