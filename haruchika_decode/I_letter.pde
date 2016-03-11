@@ -1,8 +1,9 @@
+//文字の代入
 static class I_letter {
   static String [] num1s;//1文字の場合の文字表示
   static String [][] num2s;//2文字の場合の文字表示
   static String [][] num3s;//3文字の場合のその他以外の文字表示
-
+//主に[キーボードの左上から縦に右にの順番][あいうえおの順番]
   static void init_letter() {
     num1s = new String [] {  
       "Q", "あ(A)", "Z", "W", "S", "X", "え(E)", "D", "C", "R", "F", "V", "T", "G", "B", "Y", "H", "ん(N)", "う(U)", "J", "M", "い(I)", "K", "--", "お(O)", "L", "--", "P", "--", "--"
