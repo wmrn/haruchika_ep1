@@ -287,17 +287,25 @@ void mousePressed() {
         if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="Y") {//1番目って「Y」？
           if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="あ(A)") {
             str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][0];
-          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="う(U)") {
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="い(I)") {
             str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
-          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="お(O)") {
+          }else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="う(U)") {
             str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][2];
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][3];
+          }else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="お(O)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][4];
           } else {
             if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="あ(A)") {
               str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][0];
-            } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="う(U)") {
-              str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][1];
-            } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="お(O)") {
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="い(I)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
+          }else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="う(U)") {
               str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][2];
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][3];
+          }else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="お(O)") {
+              str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][4];
             } else {
               str="--";
             }
@@ -305,17 +313,25 @@ void mousePressed() {
         } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="Y") {//2番目って「Y」？
           if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="あ(A)") {
             str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][0];
-          } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="う(U)") {
-            str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][1];
-          } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="お(O)") {
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="い(I)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
+          }else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="う(U)") {
             str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][2];
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][3];
+          }else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="お(O)") {
+            str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][4];
           } else {
             if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="あ(A)") {
               str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][0];
-            } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="う(U)") {
-              str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
-            } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="お(O)") {
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="い(I)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
+          }else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="う(U)") {
               str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][2];
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][3];
+          }else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="お(O)") {
+              str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][4];
             } else {
               str="--";
             }
@@ -323,17 +339,25 @@ void mousePressed() {
         } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="Y") {//3番目って「Y」？
           if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="あ(A)") {
             str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][0];
-          } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="う(U)") {
-            str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][1];
-          } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="お(O)") {
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="い(I)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
+          }else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="う(U)") {
             str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][2];
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][3];
+          }else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="お(O)") {
+            str=I_letter.num3s[sb_n[1]*3+put_1[1]-1][4];
           } else {
             if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="あ(A)") {
               str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][0];
-            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="う(U)") {
-              str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][1];
-            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="お(O)") {
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="い(I)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][1];
+          }else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="う(U)") {
               str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][2];
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            str=I_letter.num3s[sb_n[2]*3+put_1[2]-1][3];
+          }else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="お(O)") {
+              str=I_letter.num3s[sb_n[0]*3+put_1[0]-1][4];
             } else {
               str="--";
             }
