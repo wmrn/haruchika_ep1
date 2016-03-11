@@ -1,4 +1,7 @@
-//KYO TYA TYU HYOがなぜか認識できない…。26
+//KYO TYA TYU HYOがなぜか認識できない…。
+//もしかしたら付け足したりしたから他にも反応しないのあるかも…。
+//なるべくminim以外はclassでまとめてminimの要素だけにした
+
 import ddf.minim.*;
 import ddf.minim.signals.*;
 
@@ -73,7 +76,7 @@ void keyPressed() {
 }
 
 void keyReleased() {
-summary.k();
+summary.k();//これのせいで動きが遅くなる可能性大だから邪魔な場合はコメントアウトして。
   Key.released(key);
   if (key =='q' || key =='a' || key=='z') {
     audio.removeSignal(dO);
