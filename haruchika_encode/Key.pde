@@ -1,6 +1,7 @@
 static class Key {
   static int [][] onp =new int [10][3];
 
+//押されたら「1」を代入してそのキーが押されていることの目印にする
   static void pressed(char letter) {
     switch(letter) {
     case 'q':
@@ -109,6 +110,8 @@ static class Key {
     }
   }
 
+//キーが離されたら「0」を代入して目印をなくす
+//押っぱから離したり押したりしても反応できるようにした
   static void released(char letter) {
     switch(letter) {
     case 'q':
