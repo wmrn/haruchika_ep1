@@ -1,5 +1,5 @@
 static class Key {
-  static int [][] onp =new int [10][3];
+  static int [][] onp =new int [10][3];//キーの判定の配列[キーボードの横][キーボードの縦]
 
 //押されたら「1」を代入してそのキーが押されていることの目印にする
   static void pressed(char letter) {
