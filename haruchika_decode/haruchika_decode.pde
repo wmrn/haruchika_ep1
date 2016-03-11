@@ -500,6 +500,114 @@ void mousePressed() {
               str="--";
             }
           }
+        } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="K") {//1番目って「K」？
+          if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="X") {
+            if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="あ(A)") {
+              str="ヵ";
+            } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="え(E)") {
+              str="ヶ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="あ(A)") {
+            if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="X") {
+              str="ヵ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+            if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="X") {
+              str="ヶ";
+            } else {
+              str="--";
+            }
+          }
+        } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="K") {//2番目って「K」？
+          if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="あ(A)") {
+            if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="X") {
+              str="ヵ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="え(E)") {
+            if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="X") {
+              str="ヶ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="X") {
+            if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="あ(A)") {
+              str="ヵ";
+            } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="え(E)") {
+              str="ヶ";
+            } else {
+              str="--";
+            }
+          }
+        } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="K") {//3番目って「K」？
+          if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="あ(A)") {
+            if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="X") {
+              str="ヵ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="え(E)") {
+            if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="X") {
+              str="ヶ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="X") {
+            if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="あ(A)") {
+              str="ヵ";
+            } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="え(E)") {
+              str="ヶ";
+            } else {
+              str="--";
+            }
+          }
+        } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="W") {//1番目って「W」？
+          if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="X") {
+            if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="あ(A)") {
+              str="ゎ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="あ(A)") {
+            if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="X") {
+              str="ゎ";
+            } else {
+              str="--";
+            }
+          }
+        } else if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="W") {//2番目って「W」？
+          if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="X") {
+            if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="あ(A)") {
+              str="ゎ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="あ(A)") {
+            if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="X") {
+              str="ゎ";
+            } else {
+              str="--";
+            }
+          }
+        } else if (I_letter.num1s[sb_n[2]*3+put_1[2]-1]=="W") {//3番目って「W」？
+          if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="X") {
+            if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="あ(A)") {
+              str="ゎ";
+            } else {
+              str="--";
+            }
+          } else if (I_letter.num1s[sb_n[0]*3+put_1[0]-1]=="あ(A)") {
+            if (I_letter.num1s[sb_n[1]*3+put_1[1]-1]=="W") {
+              str="ゎ";
+            } else {
+              str="--";
+            }
+          }
         } else {
           str="--";
         }
