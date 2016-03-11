@@ -39,8 +39,7 @@ void draw() {
 }
 
 void keyPressed() {
-  summary.k();
-  Key.pressed(key);
+    Key.pressed(key);
   if (key =='q' || key =='a' || key=='z') {
     audio.addSignal(dO);
   }
@@ -74,6 +73,7 @@ void keyPressed() {
 }
 
 void keyReleased() {
+summary.k();
   Key.released(key);
   if (key =='q' || key =='a' || key=='z') {
     audio.removeSignal(dO);
