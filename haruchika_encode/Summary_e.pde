@@ -227,25 +227,13 @@ class Summary_e {
         sb_u(160-8, 1, 2);
         sb_d(200, 7, 1);
         sb_u(240, 0, 1);
-      } else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[7][0]==1) {
-        textSize(50);
-        text("ぃ", width/2, 50);
-        sb_u(160-8, 1, 2);
-        sb_d(200, 5, 0);
-        sb_d(240+8, 7, 0);
-      } else if (Key.onp[1][2]==1 && Key.onp[4][0]==1 && Key.onp[6][0]==1) {//XTUのとき
+      }else if (Key.onp[1][2]==1 && Key.onp[4][0]==1 && Key.onp[6][0]==1) {//XTUのとき
         textSize(50);
         text("っ", width/2, 50);
         sb_u(160-8, 1, 2);      
         sb_d(200, 4, 0);      
         sb_d(240+4, 6, 0);
-      }else if (Key.onp[1][2]==1 && Key.onp[5][0]==1 && Key.onp[2][0]==1) {
-        textSize(50);
-        text("ぇ", width/2, 50);
-        sb_u(160-8, 1, 2);
-        sb_d(200, 5, 0);
-        sb_u(240, 2, 0);
-      } else if (Key.onp[1][2]==1 && Key.onp[7][1]==1 && Key.onp[2][0]==1) {
+      }else if (Key.onp[1][2]==1 && Key.onp[7][1]==1 && Key.onp[2][0]==1) {
         textSize(50);
         text("ヶ", width/2, 50);
         sb_u(160-8, 1, 2);
@@ -338,7 +326,7 @@ class Summary_e {
             }
           }
         }
-      } else if (Key.onp[5][0]==1 && Key.onp[6][0]==1) {//YUのとき
+      }  else if (Key.onp[5][0]==1 && Key.onp[7][0]==1) {//YIのとき
         for (int i=0; i<10; i++) {
           for (int j=0; j<3; j++) {        
             if (Key.onp[i][j]==1) {
@@ -369,7 +357,7 @@ class Summary_e {
             }
           }
         }
-      } else if (Key.onp[5][0]==1 && Key.onp[8][0]==1) {//YOのとき
+      }else if (Key.onp[5][0]==1 && Key.onp[6][0]==1) {//YUのとき
         for (int i=0; i<10; i++) {
           for (int j=0; j<3; j++) {        
             if (Key.onp[i][j]==1) {
@@ -381,6 +369,70 @@ class Summary_e {
                         if (i!=2 || j!=0) {//E
                           if (i!=8 || j!=0) {//O
                             le(num, i, j, 2);
+                            if (i<=2) {                  
+                              sb_u(160-8, i, j);
+                            } else if (i==4 || i==5) {
+                              sb_d(160-8, i, j);
+                            } else {
+                              sb_d(160, i, j);
+                            }
+                            sb_u(200, 5, 0);
+                            sb_d(240+8, 6, 0);
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      } else if (Key.onp[5][0]==1 && Key.onp[2][0]==1) {//YEのとき
+        for (int i=0; i<10; i++) {
+          for (int j=0; j<3; j++) {        
+            if (Key.onp[i][j]==1) {
+              if (i!=1 || j!=0) {//W
+                if (i!=5 || j!=0) {//Y
+                  if (i!=0 || j!=1) {//A
+                    if (i!=7 || j!=0) {//I
+                      if (i!=6 || j!=0) {//U
+                        if (i!=2 || j!=0) {//E
+                          if (i!=8 || j!=0) {//O
+                            le(num, i, j, 3);
+                            if (i<=3) {                  
+                              sb_u(160-8, i, j);
+                              sb_d(200, 5, 0);
+                            } else if (i==4 || i==5) {
+                              sb_u(160-4, i, j);
+                              sb_d(200, 5, 0);
+                            } else {
+                              sb_d(160, i, j);
+                              sb_u(200, 5, 0);
+                            }                                       
+                            sb_u(240, 2, 0);
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      } else if (Key.onp[5][0]==1 && Key.onp[8][0]==1) {//YOのとき
+        for (int i=0; i<10; i++) {
+          for (int j=0; j<3; j++) {        
+            if (Key.onp[i][j]==1) {
+              if (i!=1 || j!=0) {//W
+                if (i!=5 || j!=0) {//Y
+                  if (i!=0 || j!=1) {//A
+                    if (i!=7 || j!=0) {//I
+                      if (i!=6 || j!=0) {//U
+                        if (i!=2 || j!=0) {//E
+                          if (i!=8 || j!=0) {//O
+                            le(num, i, j, 4);
                             if (i<=2) {                  
                               sb_u(160-8, i, j);
                             } else if (i==4 || i==5) {
