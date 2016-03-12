@@ -38,8 +38,9 @@
 ※一応下の画像(アニメでハルタが先生に送ってた曲)をencode・decodeしてる様子をとても雑に録画したやつのアドレスも貼り付けておく…。  
 ![](https://github.com/wmrn/haruchika_ep1/blob/master/data/example.png)  
 ![](https://github.com/wmrn/haruchika_ep1/blob/master/data/sample_image.png)  
-＜encode版＞<https://youtu.be/UqIuxAF67VU>  
-＜decode版＞<https://youtu.be/zIGfoJSpN4s>  
+※↓そのままじゃ見れない…。  
+＜encode版＞<https://github.com/wmrn/haruchika_ep1/blob/master/data/haruchika_encode_example.mp4>  
+＜decode版＞<https://github.com/wmrn/haruchika_ep1/blob/master/data/haruchika_decode_example.mp4>  
 
 
 ## 何で作ったか
