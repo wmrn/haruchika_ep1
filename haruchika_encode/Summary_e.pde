@@ -493,7 +493,7 @@ class Summary_e {
     ellipse(width+110, 450, R, R);//ほぼ常時ある円
     for (int i=0; i<lope.length; i++) {
       if (lope[i]>0) {
-        for (int j=0; j<8; j++) {
+        for (int j=0; j<8; j++) {//ここ重くていらいらしたら1にする
           if (lope[i]+j>R) {//輪っかが円よりも大きいとき
             stroke(255);//輪っかの色は白
           } else if (lope[i]+j<=R) {//輪っかが円よりも小さいとき
