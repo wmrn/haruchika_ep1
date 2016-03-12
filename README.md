@@ -35,6 +35,11 @@
   2. 音符をクリックで並べる＋その音符とセットで書かれていた数字を選択
   3. deocdeボタンクリックして文字表示＋音  
 
+※一応下の画像(アニメでハルタが先生に送ってた曲)をencode・decodeしてる様子をとても雑に録画したやつのアドレスも貼り付けておく…。  
+![](https://github.com/wmrn/haruchika_ep1/blob/master/data/example.png)  
+＜encode版＞<https://youtu.be/UqIuxAF67VU>  
+＜decode版＞<https://youtu.be/zIGfoJSpN4s>  
+
 
 ## 何で作ったか
 作ろうとした切っ掛けは、簡単に言うとこの暗号を使ってみたらとてもめんどくさかったから。  
