@@ -637,13 +637,13 @@ void bg() {//背景
   ellipse(110, 400, R, R);
   for (int i=0; i<lope.length; i++) {
     if (lope[i]>0) {
-      for (int j=0; j<25; j++) {
+      for (int j=0; j<8; j++) {//遅くてイライラしたら8→1にする
         if (lope[i]+j>R) {//輪っかが円よりも大きいとき
           stroke(r, g, b);//輪っかの色は円と一緒
         } else if (lope[i]+j<=R) {//輪っかが円よりも小さいとき
           stroke(255);//輪っかの色は背景と一緒
         }
-        strokeWeight(1);
+        strokeWeight(3);
         noFill();
         ellipse(110, 400, lope[i]+j, lope[i]+j);//輪っか
       }
